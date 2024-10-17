@@ -7,4 +7,5 @@ for e in sys.argv[1:]:
     e = float(e)
     if e < 0.0:
         cN += 1
+
 print(cN)
